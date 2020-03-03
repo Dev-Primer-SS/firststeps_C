@@ -3,7 +3,8 @@ this is remaining ff.c file
 */
 #include <stdio.h>
 #include <stdlib.h>
-
+int main()
+{
 int val  = 0;
 char card_name[3];
 scanf("%2s",card_name);
@@ -19,4 +20,7 @@ case 'J':
 	break;
 default:
     val = atoi(card_name);
+}
+
+return(0);
 }
